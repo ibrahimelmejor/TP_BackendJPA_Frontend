@@ -1,0 +1,35 @@
+
+<h1>Ecriture</h1>
+<table>
+
+        <tr>
+            <td><label>Nom employé</label></td>
+            <td><input type = "text" [(ngModel)] = "employee.name" required></td>
+        </tr>
+        <tr>
+            <td><label>Departement</label></td>
+            <td><input type = "text" [(ngModel)] = "employee.department" required></td>
+        </tr>
+        <tr>
+            <td colspan = "2" text-align = "center">
+                <button (click) = "onSubmit()">Post data</button>
+            </td>
+            <td></td>
+
+        </tr>
+
+</table>
+<span  *ngIf="this.filedsEmpty">le champ nom ou departement est vide<br/></span>
+<h1>Lecture</h1>
+<button (click) = "getData()">Get data</button>
+
+<table *ngIf = "this.listEmployees">
+    <tr>
+        <th>Nom employé</th>
+        <th>Departement</th>
+    </tr>
+    <tr *ngFor = "let employee of listEmployees">
+        <td >{{employee.name}}</td>
+        <td>{{employee.department}}</td>
+    </tr>
+</table>

@@ -54,10 +54,14 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 ![](images/ajoutEmployee.PNG)
 ![](images/listeEmployeeAjour.png)
 
-**Etape 6 ( Question 6 parties d et e ):** aller sur le lien `localhost:8001/rest/hello`
+**Etape 6 ( Question 6 parties d et e ):** 
+
+aller sur le lien `localhost:8001/rest/hello`
 
 ![](images/restHello.png)
+
 aller sur le lien `localhost:8001/rest/hello/home`
+
 ![](images/restHelloHome.png)
 
 **Etape 7 ( Question 7 TP 5 ):** développement de deux services rest, un qui permet d'ajouter un employé et autre qui permet de récuperer la liste des employés.

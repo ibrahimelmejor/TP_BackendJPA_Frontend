@@ -44,7 +44,7 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 
 **Etape 6 ( Question 5 TP 4 ) :** Pour la partie gestion de l'héritage, j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, ceci m'a généré avec JPA une table dans la base de données appelée sondagePrincipal qui contient les champs des deux classes.
 
-Voilà le résultat d'une requete postman sans et avec paramètres, ces résultats sont fournies en utilisant les criteria query de java:
+Voilà le résultat d'une requete postman sans et avec paramètres, ces résultats sont fournies en utilisant les **criteria query** de java:
 
 **première requete :** on ne passe pas de paramètres ça va nous retourner tous les sondages : localhost:8001/rest/sondages
 

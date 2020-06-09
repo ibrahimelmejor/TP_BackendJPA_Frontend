@@ -10,7 +10,7 @@
 
 **Questions 0, 1, 2, 3, 4 :** regarder le projet
 
-**Question 5 :** regarder l'étape 7 du TP 5 
+**Question 5 :** regarder l'étape 8 du TP 5 
 
 **Question 6 :**
 
@@ -59,7 +59,17 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 ![](images/restHello.png)
 ![](images/restHelloHome.png)
 
-**Etape 7 ( Question 5 TP 4 ) :** Pour la partie gestion de l'héritage, j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, ceci m'a généré avec JPA une table dans la base de données appelée sondagePrincipal qui contient les champs des deux classes.
+**Etape 7 ( Question 7 ):** développement de deux services rest, un qui permet d'ajouter un employé et autre qui permet de récuperer la liste des employés.
+
+`localhost:8001/rest/employees/add` type post:
+
+![](images/addRest.png)
+
+`localhost:8001/rest/employees/list` type get:
+
+![](images/listeRest.png)
+
+**Etape 8 ( Question 5 TP 4 ) :** Pour la partie gestion de l'héritage, j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, ceci m'a généré avec JPA une table dans la base de données appelée sondagePrincipal qui contient les champs des deux classes.
 
 Voilà le résultat d'une requete postman sans et avec paramètres, ces résultats sont fournies en utilisant les **criteria query** de java:
 
@@ -149,10 +159,10 @@ des employés ainsi que leurs départements
 
 **path-to-your-nginx**: chemin où vous avez installé nginx
     
-**Etape 6 :** Lancer le build angular en mode production avec la commande **ng build --prod** ( cela va générer le répértoire des fichiers de l'application dans "dist/angularProject" )
+**Etape 6 :** lancer le build angular en mode production avec la commande **ng build --prod** ( cela va générer le répértoire des fichiers de l'application dans "dist/angularProject" )
 
-**Etape 7 :** Aller à la racine nginx et lancer nginx avec la commande **start nginx**
+**Etape 7 :** aller à la racine nginx et lancer nginx avec la commande **start nginx**
 
-**Etape 8 :** Aller sur l'url `localhost` sans spécifier le port vue que nous avons utilisé nginx
+**Etape 8 :** aller sur l'url `localhost` sans spécifier le port vue que nous avons utilisé nginx
 
 ![](images/getPostDataNginx.png)

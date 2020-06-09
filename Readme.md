@@ -59,7 +59,7 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 ![](images/restHello.png)
 ![](images/restHelloHome.png)
 
-**Etape 7 ( Question 7 ):** développement de deux services rest, un qui permet d'ajouter un employé et autre qui permet de récuperer la liste des employés.
+**Etape 7 ( Question 7 TP 5 ):** développement de deux services rest, un qui permet d'ajouter un employé et autre qui permet de récuperer la liste des employés.
 
 `localhost:8001/rest/employees/add` type post:
 

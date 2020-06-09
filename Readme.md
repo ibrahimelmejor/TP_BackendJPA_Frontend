@@ -37,14 +37,12 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 ![](images/formulaire0.png)
 ![](images/formulaire1.png)
 
-**Etape 4 :** aller sur le lien localhost:8001/ajoutEmployee, ajouter un employee et un département, puis envoyer le formulaire pour afficher la liste des employés ainsi que leurs départements
+**Etape 5 :** aller sur le lien localhost:8001/ajoutEmployee, ajouter un employee et un département, puis envoyer le formulaire pour afficher la liste des employés ainsi que leurs départements
 
 ![](images/ajoutEmployee.PNG)
 ![](images/listeEmployeeAjour.png)
 
-**Etape 5 ( Question 5 TP 4 ) :** Pour la partie gestion de l'héritage: j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, 
-
-ceci m'a généré avec JPA une table dans la base de données appelée sondagePrincipal qui contient les champs des deux classes.
+**Etape 6 ( Question 5 TP 4 ) :** Pour la partie gestion de l'héritage, j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, ceci m'a généré avec JPA une table dans la base de données appelée sondagePrincipal qui contient les champs des deux classes.
 
 Voilà le résultat d'une requete postman sans et avec paramètres, ces résultats sont fournies en utilisant les criteria query de java:
 

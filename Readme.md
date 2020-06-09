@@ -6,6 +6,12 @@
 
 - Il faut travailler avec le JDK13 pour lancer l'apllication.
 
+### TP4
+
+**Questions** 0, 1, 2, 3, 4 : regarder le projet
+
+**Questions** 1 : regarder le projet
+
 ### Etapes:
 
 Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaque fois le répertoire de déploiment
@@ -16,7 +22,9 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 
 **Etape 1 :** Lancer la classe \src\main\java\jpa\JpaTest.java
 
-**Etape 2 :** lancer l'application sur le port 8001 en utilisant IntelliJ ( j'avais des problèmes avec le port 8080 )
+**Etape 2 ( Question 2 TP 5 ) :** lancer l'application sur le port 8001 en utilisant IntelliJ ( j'avais des problèmes avec le port 8080 ) 
+
+![](images/index.png)
  
 **Etape 3 :** aller sur le lien localhost:8001/ajoutEmployee
 
@@ -25,7 +33,7 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 ![](images/ajoutEmployee.PNG)
 ![](images/listeEmployeeAjour.png)
 
-**Etape 5 :** Pour la partie gestion de l'héritage: j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, 
+**Etape 5 ( Question 5 TP 4 ) :** Pour la partie gestion de l'héritage: j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, 
 
 ceci m'a généré avec JPA une table dans la base de données appelée sondagePrincipal qui contient les champs des deux classes.
 

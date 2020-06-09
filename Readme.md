@@ -32,6 +32,11 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 
 ![](images/myurl.png)
 
+**Etape 4 ( Question 4 TP 5 ) :** aller sur le lien localhost:8001/myform.html, remplir le formulaire et l'envoyer pour récapituler les informations
+
+![](images/formulaire0.png)
+![](images/formulaire1.png)
+
 **Etape 4 :** aller sur le lien localhost:8001/ajoutEmployee, ajouter un employee et un département, puis envoyer le formulaire pour afficher la liste des employés ainsi que leurs départements
 
 ![](images/ajoutEmployee.PNG)

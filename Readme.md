@@ -10,7 +10,7 @@
 
 **Questions 0, 1, 2, 3, 4 :** regarder le projet
 
-**Question 5 :** regarder l'étape 6 du TP 5
+**Question 5 :** 
 
 **Question 6 :**
 
@@ -22,7 +22,9 @@ En comparant les deux techniques, nous appercevons que la technique n1select pre
 
 ### TP 5
 
-**Questions** 1 : regarder le projet
+**Questions 1 :** regarder le projet
+
+**Question 6 parties a,b,c :** regarder le projet
 
 ### Etapes:
 

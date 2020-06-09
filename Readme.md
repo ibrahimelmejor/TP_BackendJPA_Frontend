@@ -18,7 +18,7 @@ Technique n1select: ![](images/n1select.png)
 
 Technique joinfetch: ![](images/joinFetch.png)
 
-En comparant les deux types de techniques, nous appercevons que la technique n1select prend beaucoup plus de temps et réalise beaucoup plus de requêtes que la technique joinFetch, cela veut dire que joinFetch est plus performante.
+En comparant les deux techniques, nous appercevons que la technique n1select prend beaucoup plus de temps et réalise beaucoup plus de requêtes que la technique joinFetch, cela veut dire que joinFetch est plus performante.
 
 ### TP 5
 

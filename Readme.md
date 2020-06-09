@@ -8,7 +8,17 @@
 
 ### TP 4
 
-**Questions** 0, 1, 2, 3, 4 : regarder le projet
+**Questions 0, 1, 2, 3, 4 :** regarder le projet
+
+**Question 5 :** regarder l'étape 6 du TP 5
+
+**Question 6 :**
+
+Technique n1select: ![](images/n1select.png)
+
+Technique joinfetch: ![](images/joinFetch.png)
+
+En comparant les deux types de techniques, nous appercevons que la technique n1select prend beaucoup plus de temps et réalise beaucoup plus de requêtes que la technique joinFetch, cela veut dire que joinFetch est plus performante.
 
 ### TP 5
 

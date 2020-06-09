@@ -98,7 +98,7 @@ des employés ainsi que leurs départements
 
      listen 80;
 
-     root local_path/TPs_MDI_AL/TP7/dist/angularProject;
+     root local_path/TP_BackendJPA_Frontend/TP7/dist/angularProject;
 
      location /rest {
 

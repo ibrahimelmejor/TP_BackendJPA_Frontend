@@ -28,21 +28,21 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 
 ![](images/index.png)
  
-**Etape 3 ( Question 3 TP 5 ) :** Aller sur localhost:8001/myurl
+**Etape 3 ( Question 3 TP 5 ) :** aller sur `localhost:8001/myurl`
 
 ![](images/myurl.png)
 
-**Etape 4 ( Question 4 TP 5 ) :** aller sur le lien localhost:8001/myform.html, remplir le formulaire et l'envoyer pour récapituler les informations
+**Etape 4 ( Question 4 TP 5 ) :** aller sur le lien `localhost:8001/myform.html`, remplir le formulaire et l'envoyer pour récapituler les informations
 
 ![](images/formulaire0.png)
 ![](images/formulaire1.png)
 
-**Etape 5 ( Question 5 TP 5 ):** aller sur le lien localhost:8001/ajoutEmployee, ajouter un employee et un département, puis envoyer le formulaire pour afficher la liste des employés ainsi que leurs départements
+**Etape 5 ( Question 5 TP 5 ):** aller sur le lien `localhost:8001/ajoutEmployee`, ajouter un employee et un département, puis envoyer le formulaire pour afficher la liste des employés ainsi que leurs départements
 
 ![](images/ajoutEmployee.PNG)
 ![](images/listeEmployeeAjour.png)
 
-**Etape 6 ( Question 6 partie d et e ):** aller sur le lien localhost:8001/rest/hello
+**Etape 6 ( Question 6 partie d et e ):** aller sur le lien `localhost:8001/rest/hello`
 
 ![](images/restHello.png)
 ![](images/restHelloHome.png)
@@ -51,17 +51,17 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 
 Voilà le résultat d'une requete postman sans et avec paramètres, ces résultats sont fournies en utilisant les **criteria query** de java:
 
-**première requete :** on ne passe pas de paramètres ça va nous retourner tous les sondages : localhost:8001/rest/sondages
+**première requete :** on ne passe pas de paramètres ça va nous retourner tous les sondages : `localhost:8001/rest/sondages`
 
 ![](images/sansSondagePostman.PNG)
 
-**deuxième requete :** on resngeine juste un seul paramètre lieu= rennes : localhost:8001/rest/sondages?lieu=Rennes
+**deuxième requete :** on resngeine juste un seul paramètre lieu= rennes : `localhost:8001/rest/sondages?lieu=Rennes`
 
 ![](images/postmanLieuSondage.PNG)
 
 **troisième requete :** on passes deux paramètres intitule= sondageFils0 et lieu = rennes : 
 
-localhost:8001/rest/sondages?intitule=sondageFils0&lieu=Rennes
+`localhost:8001/rest/sondages?intitule=sondageFils0&lieu=Rennes`
 
 ![](images/intituleLieuSondage.PNG)
 
@@ -76,7 +76,7 @@ localhost:8001/rest/sondages?intitule=sondageFils0&lieu=Rennes
 
 **Etape 2 :** lancer angular avec `ng serve` dans le répértoire **TP7**
 
-**Etape 3 :** aller sur le lien : localhost:4200 ( J'ai ajouté le fichier proxy.config.conf pour éviter le problème de CORS ) 
+**Etape 3 :** aller sur le lien `localhost:4200` ( J'ai ajouté le fichier proxy.config.conf pour éviter le problème de CORS ) 
 
 **Etape 4 :** ajouter un employé, puis cliquer sur post pour le suvegarder et ensuite cliquer sur get data pour récupérer la liste 
 des employés ainsi que leurs départements
@@ -141,6 +141,6 @@ des employés ainsi que leurs départements
 
 **Etape 7 :** Aller à la racine nginx et lancer nginx avec la commande **start nginx**
 
-**Etape 8 :** Aller sur l'url localhost sans spécifier le port vue que nous avons utilisé nginx
+**Etape 8 :** Aller sur l'url `localhost` sans spécifier le port vue que nous avons utilisé nginx
 
 ![](images/getPostDataNginx.png)

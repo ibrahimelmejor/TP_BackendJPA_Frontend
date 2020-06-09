@@ -32,14 +32,12 @@ Veuillez mettre le contexte à vide dans IntelliJ pour ne pas spécifier à chaq
 
 ![](images/myurl.png)
 
-**Etape 4 :** aller sur le lien localhost:8001/ajoutEmployee
-
-**Etape 5 :** ajouter un employee et un département, puis envoyer le formulaire pour afficher la liste des employés ainsi que leurs départements
+**Etape 4 :** aller sur le lien localhost:8001/ajoutEmployee, ajouter un employee et un département, puis envoyer le formulaire pour afficher la liste des employés ainsi que leurs départements
 
 ![](images/ajoutEmployee.PNG)
 ![](images/listeEmployeeAjour.png)
 
-**Etape 6 ( Question 5 TP 4 ) :** Pour la partie gestion de l'héritage: j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, 
+**Etape 5 ( Question 5 TP 4 ) :** Pour la partie gestion de l'héritage: j'ai crée une classe SondageFils qui hérite d'une classe SondagePrincipale, 
 
 ceci m'a généré avec JPA une table dans la base de données appelée sondagePrincipal qui contient les champs des deux classes.
 
